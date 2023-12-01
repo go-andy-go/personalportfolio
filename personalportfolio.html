@@ -1,63 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="personalportfolio.css">
 </head>
-
 <body>
-    <header>
-        /*add nav bar with links*/
-    </header>
-    <main>
-        <section class="aboutme">
-            <H2>About Me</H2>
-            <p> WRITE SOMETHING WHIMSICAL HERE </p>
-        </section>
-        <section class="skills">
-            <H2>Skillz</H2>
-            <p> ADD AN UNORDERED LIST HERE </p>
-        </section>
-        <section class="projects">
-            <H2>Projects</H2>
-            <p> ADD projects, images </p>
-        </section>
-        <section class="contact">
-            <H2>Contact Andy B</H2>
-            <p>I hate talking on the phone and love reading, so contact me via email: <a href="mailto:Andy.M.Bryant@Gmail.com">Andy.M.Bryant@Gmail.com</a></p>
-        </section>
-        <section class="mailform">
-            <p>Even more than reading I love sending mail</p>
-            <form> 
-            <fieldset>
-                     <legend>Send me mail Andy!</legend>
-                     <label for ="fname">First name</label><br>
-                     <input type = "text" id="fname" name = "fname" value="Luna"><br>
-                     <label for ="lname">Last name</label><br>
-                     <input type = "text" id="lname" name = "lname" value="Lovegood"><br>
-                     <label for ="add1">Address 1</label><br>
-                     <input type = "text" id="add1" name = "add1" value="Address 1"><br>
-                     <label for ="add2">Address 2</label><br>
-                     <input type = "text" id="add2" name = "add2" value="Address 2"><br>
-                     <label for ="add3">Address 3</label><br>
-                     <input type = "text" id="add3" name = "add3" value="Address 3"><br>
-                     <label for ="Country">Country</label><br>
-                     <input type = "text" id="Country" name = "Country" value="Country"><br>
-                     <label for ="City">City</label><br>
-                     <input type = "text" id="City" name = "City" value="City"><br>
-                     <label for ="State">State</label><br>
-                     <input type = "text" id="State" name = "State" value="State"><br>
-                     <label for ="Zip">Zip Code</label><br>
-                     <input type = "text" id="Zip" name = "Zip" value="Zip"><br>
-                     <input type ="submit" value= "Submit"> 
-              </fieldset>
-       </form></section>
-    </main>
-    <footer>
-    </footer>
-</body>
 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="profile-container">
+            <img src="profile.jpg" alt="My Profile Picture" class="profile-img">
+            <div class="bio">
+                <h1>Andy Bryant</h1>
+                <p>Systems Support Analyst. Software Development Hopeful.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li></li>
+            <li>Research and analysis</li>
+            <li>SQL</li>
+            <li>Useless trivia knowledge</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="project1.jpg" alt="Project 1">
+                <p>First engineering project.</p>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="Project 2">
+                <p>Tribute: Alan Turing</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Andy B</h2>
+        <p>I hate talking on the phone and love reading, so contact me via email: <a href="mailto:Andy.M.Bryant@Gmail.com">Andy.M.Bryant@Gmail.com</a></p>
+    </section>
+
+    <section class="mailform">
+        <p>Even more than reading I love sending mail</p>
+    <form> 
+        <fieldset>
+                 <legend>Send me mail, Andy!</legend>
+                 <label for ="fname">First name</label><br>
+                 <input type = "text" id="fname" name = "fname" value="Luna"><br>
+                 <label for ="lname">Last name</label><br>
+                 <input type = "text" id="lname" name = "lname" value="Lovegood"><br>
+                 <label for ="add1">Address 1</label><br>
+                 <input type = "text" id="add1" name = "add1" value="Address 1"><br>
+                 <label for ="add2">Address 2</label><br>
+                 <input type = "text" id="add2" name = "add2" value="Address 2"><br>
+                 <label for ="add3">Address 3</label><br>
+                 <input type = "text" id="add3" name = "add3" value="Address 3"><br>
+                 <label for ="Country">Country</label><br>
+                 <input type = "text" id="Country" name = "Country" value="Country"><br>
+                 <label for ="City">City</label><br>
+                 <input type = "text" id="City" name = "City" value="City"><br>
+                 <label for ="State">State</label><br>
+                 <input type = "text" id="State" name = "State" value="State"><br>
+                 <label for ="Zip">Zip Code</label><br>
+                 <input type = "text" id="Zip" name = "Zip" value="Zip"><br>
+                 <input type ="submit" value= "Submit"> 
+        </fieldset>
+    </form>
+    </section>
+
+</body>
 </html>
