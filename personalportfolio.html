@@ -9,21 +9,23 @@
 <body>
 
     <header>
-        <nav>
-            <ul>
+        <navbar>
+            <div class="nav-list">
+             <ul class="nav-item">
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+             </ul>
+        </div>
+        </navbar>
     </header>
 
     <section id="about">
         <div class="profile-container">
             <img src="profile.jpg" alt="My Profile Picture" class="profile-img">
             <div class="bio">
-                <h1>Andy Bryant</h1>
+                <h1>Andy Bryant</h1> <br>  
                 <p>Systems Support Analyst. Software Development Hopeful.</p>
             </div>
         </div>
@@ -43,62 +45,19 @@
         <h2>Projects</h2>
         <div class="projects-container">
             <div class="project-card">
-                <img src="project1.jpg" alt="Project 1">
+                <img src="project1.jpg" alt="Project 1" class=".project-card img">
                 <p>First engineering project.</p>
             </div>
             <div class="project-card">
-                <img src="project2.jpg" alt="Project 2">
+                <img src="project2.jpg" alt="Project 2" class=".project-card img">
                 <p>Tribute: Alan Turing</p>
             </div>
         </div>
     </section>
-    <section class="mailform">
-        <p>Even more than reading I love sending mail</p>
-    <form> 
-        <div class="fcf-body">
 
-            <div id="fcf-form">
-            <h3 class="fcf-h3">Contact us</h3>
-        
-            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-                
-                <div class="fcf-form-group">
-                    <label for="Name" class="fcf-label">Your name</label>
-                    <div class="fcf-input-group">
-                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Email" class="fcf-label">Your email address</label>
-                    <div class="fcf-input-group">
-                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Message" class="fcf-label">Your message</label>
-                    <div class="fcf-input-group">
-                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-                </div>
-        
-                <div class="fcf-credit" id="fcf-credit">
-                Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
-                </div>
-        
-            </form>
-            </div>
-        
-        </div>
-    </form>
     </section>
     <section id="contact">
-        <h2>Contact Andy B</h2>
+        <h3>Contact Andy B</h3>
         <p>I hate talking on the phone and love reading, so contact me via email: <a href="mailto:Andy.M.Bryant@Gmail.com">Andy.M.Bryant@Gmail.com</a></p>
     </section>
 
