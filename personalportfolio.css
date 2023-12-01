@@ -20,7 +20,6 @@ header {
 
 .nav-item a {
     display: flex;
-    background-color: white;
     color: maroon;
     border-radius: 50%;
     padding: 14px 25px;
