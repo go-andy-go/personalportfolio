@@ -34,7 +34,7 @@
         <ul class="skills-list">
             <li></li>
             <li>Research and analysis</li>
-            <li>SQL</li>
+            <li>SQL Nerd</li>
             <li>Useless trivia knowledge</li>
         </ul>
     </section>
@@ -52,39 +52,57 @@
             </div>
         </div>
     </section>
+    <section class="mailform">
+        <p>Even more than reading I love sending mail</p>
+    <form> 
+        <div class="fcf-body">
 
+            <div id="fcf-form">
+            <h3 class="fcf-h3">Contact us</h3>
+        
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your email address</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Your message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                </div>
+        
+                <div class="fcf-credit" id="fcf-credit">
+                Simple HTML email form provided by <a href="https://www.majesticform.com" target="_blank">MajesticForm</a>
+                </div>
+        
+            </form>
+            </div>
+        
+        </div>
+    </form>
+    </section>
     <section id="contact">
         <h2>Contact Andy B</h2>
         <p>I hate talking on the phone and love reading, so contact me via email: <a href="mailto:Andy.M.Bryant@Gmail.com">Andy.M.Bryant@Gmail.com</a></p>
     </section>
 
-    <section class="mailform">
-        <p>Even more than reading I love sending mail</p>
-    <form> 
-        <fieldset>
-                 <legend>Send me mail, Andy!</legend>
-                 <label for ="fname">First name</label><br>
-                 <input type = "text" id="fname" name = "fname" value="Luna"><br>
-                 <label for ="lname">Last name</label><br>
-                 <input type = "text" id="lname" name = "lname" value="Lovegood"><br>
-                 <label for ="add1">Address 1</label><br>
-                 <input type = "text" id="add1" name = "add1" value="Address 1"><br>
-                 <label for ="add2">Address 2</label><br>
-                 <input type = "text" id="add2" name = "add2" value="Address 2"><br>
-                 <label for ="add3">Address 3</label><br>
-                 <input type = "text" id="add3" name = "add3" value="Address 3"><br>
-                 <label for ="Country">Country</label><br>
-                 <input type = "text" id="Country" name = "Country" value="Country"><br>
-                 <label for ="City">City</label><br>
-                 <input type = "text" id="City" name = "City" value="City"><br>
-                 <label for ="State">State</label><br>
-                 <input type = "text" id="State" name = "State" value="State"><br>
-                 <label for ="Zip">Zip Code</label><br>
-                 <input type = "text" id="Zip" name = "Zip" value="Zip"><br>
-                 <input type ="submit" value= "Submit"> 
-        </fieldset>
-    </form>
-    </section>
+
 
 </body>
 </html>
